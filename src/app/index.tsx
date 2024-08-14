@@ -4,10 +4,11 @@ import Constants from 'expo-constants'
 import { Header } from "../components/header";
 import { Banner } from "../components/banner";
 import { Search } from "../components/search";
-import { Section } from '../components/section'
-import { TrendingFoods } from "../components/trending";
+import { RestaurantVerticalList } from "../components/list";
+import { Section } from "../components/section";
 import { Restaurants } from "../components/restaurants";
-import { RestaurantVerticalList } from '../components/list'
+import { TrendingFoods } from "../components/trending";
+
 
 
 const statusBarHeight = Constants.statusBarHeight;
